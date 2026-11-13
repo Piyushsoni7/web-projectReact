@@ -6,8 +6,7 @@ import Arrow from './Arrow'
 
 const leftcontent = () => {
   return (
-    <div className ='h-full w-1/3  flex flex-col justify-between'>  
-     <Herotext />
+<div className='w-full lg:w-1/3 h-auto lg:h-full flex flex-col justify-between gap-6 lg:gap-0'>     <Herotext />
      <Arrow/>
    
       </div> 

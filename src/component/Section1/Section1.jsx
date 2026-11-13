@@ -4,7 +4,8 @@ import Page1Content from './page1content.jsx'
 
 const Section1 = (props) => {
   return (
-    <div className='h-screen w-full'>
+   <div className='min-h-screen h-auto lg:h-screen w-full'>
+
       <Navbar />
       <Page1Content user={props.user}/>
       
